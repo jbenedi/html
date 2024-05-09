@@ -1,4 +1,4 @@
 HTML Editor
 ===========
 
-Simple HTML/CSS/JS editor.
+Simple HTML/CSS/JS editor for editing webpages.
