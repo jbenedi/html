@@ -1,4 +1,4 @@
-html editor
+HTML Editor
 ===========
 
-Simple editor for messing around.
+Simple HTML/CSS/JS editor.
