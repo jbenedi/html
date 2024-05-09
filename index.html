@@ -317,27 +317,6 @@
 			buttonDownload.textContent = 'download';
 			menu.appendChild( buttonDownload );
 
-			var buttonShare = document.createElement( 'button' );
-			buttonShare.className = 'button';
-			buttonShare.textContent = 'share';
-			buttonShare.addEventListener( 'click', function ( event ) {
-
-				var dom = document.createElement( 'input' );
-				dom.value = 'http://mrdoob.com/projects/htmleditor/#B/' + encode( codemirror.getValue() );
-				dom.style.width = '400px';
-				dom.style.padding = '5px';
-				dom.style.marginTop = '20px';
-				dom.style.border = '0px';
-
-				popup.set( dom );
-				popup.show();
-
-				dom.focus();
-				dom.select();
-
-			}, false );
-			menu.appendChild( buttonShare );
-
 			var buttonReset = document.createElement( 'button' );
 			buttonReset.className = 'button';
 			buttonReset.textContent = 'reset';
